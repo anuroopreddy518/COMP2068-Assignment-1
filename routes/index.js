@@ -27,6 +27,13 @@ router.get('/services', function(req, res, next) {
   });
 });
 
+// get and render contact page
+router.get('/contact', function(req, res, next) {
+    res.render('contact', {
+        title: 'Contact Me'
+    });
+});
+
 
 
 
